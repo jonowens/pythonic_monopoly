@@ -1,5 +1,5 @@
 # Pythonic Monopoly
-
+A project to help customers visually analyze and interact with data using a dashboard to determine if they would like to invest in rental property.
 
 ---
 
