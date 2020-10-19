@@ -67,4 +67,4 @@ Project is:  _in progress_
 ## Contributors
 
 * Jonathan Owens
-* LinkedIn: www.linkedin.com/in/jonathan-owens-b7951219
+* LinkedIn: www.linkedin.com/in/jonowens
