@@ -170,7 +170,7 @@ This shows how to move around the interactive plots and to zoom in and out using
 
 ## Sources
 
-- [^1] https://rice.bootcampcontent.com/Rice-Coding-Bootcamp/rice-hou-fin-pt-09-2020-u-c/tree/master/hw/06-PyViz/Instructions
+- [1] https://rice.bootcampcontent.com/Rice-Coding-Bootcamp/rice-hou-fin-pt-09-2020-u-c/tree/master/hw/06-PyViz/Instructions
 
 - [2] https://hvplot.holoviz.org/user_guide/Customization.html
 
