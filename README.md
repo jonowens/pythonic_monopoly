@@ -28,13 +28,13 @@ The goal of this dashboard is to provide charts, maps, and interactive visualiza
 
 * These are various tabs, visual plots and designs used in the layout of the dashboard.
 
-![Welcome Tab](./images/welcome_tab.png)
+* ![Welcome Tab](./images/welcome_tab.png)
 
-![Yearly Market Analysis Tab](./images/yearly_market_analysis_tab.png)
+* ![Yearly Market Analysis Tab](./images/yearly_market_analysis_tab.png)
 
-![Neighborhood Analysis Tab](./images/neighborhood_analysis_tab.png)
+* ![Neighborhood Analysis Tab](./images/neighborhood_analysis_tab.png)
 
-![A Detaied Look Tab](./images/a_detailed_look_tab.png)
+* ![A Detaied Look Tab](./images/a_detailed_look_tab.png)
 
 ---
 
@@ -134,13 +134,43 @@ def parallel_coordinates():
 
 ## Usage
 
+### Starting the dashboard
 
+1. Open a Terminal window.
+
+2. Make sure to activate your conda environment with the preinstall libraries.
+
+3. Verify you are in the correct repository titled 'pythonic_monopoly'.
+
+4. Type 'bash run.sh'.
+
+5. This will start the panel dashboard.  Right clicking and choose Mark from the drop down menu allows you to highlight, copy and paste the localhost URL into your browser for initial testing.  *Note: you may need to press Ctrl + Shift + C to copy the highlighted text from your Terminal window.  You must keep your Terminal window open while using the dashboard.
+
+*The following animated GIF allows for a visual representation on how to use the run.sh file and navigate the dashboard.
+
+![Run the Dashboard](./images/run_panel_dashboard.gif)
+
+### Tab Viewing
+Here is a sample of the tab functionality.
+
+![Tab Functionality](./images/tab_browsing.gif)
+
+### Navigating interactive plots
+This shows how to move around the interactive plots and to zoom in and out using your mouse wheel.
+
+![Navigate Interactive Plots](./images/nav_interactive_plots.gif)
+
+### Closing the Dashboard Pane
+
+1. Close your browser window
+
+2. Navigate to your Terminal window and press Ctrl + C twice to stop the task from running.
 
 ---
 
 ## Sources
 
-- [1] https://rice.bootcampcontent.com/Rice-Coding-Bootcamp/rice-hou-fin-pt-09-2020-u-c/tree/master/hw/06-PyViz/Instructions
+- [^1] https://rice.bootcampcontent.com/Rice-Coding-Bootcamp/rice-hou-fin-pt-09-2020-u-c/tree/master/hw/06-PyViz/Instructions
 
 - [2] https://hvplot.holoviz.org/user_guide/Customization.html
 
@@ -152,7 +182,7 @@ def parallel_coordinates():
 
 ## Status
 
-Project is:  _in progress_
+Project is:  _finished_
 
 ---
 
