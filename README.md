@@ -159,12 +159,12 @@ def parallel_coordinates():
 ### Tab Viewing
 Here is a sample of the tab functionality.
 
-![Tab Functionality](./images/tab_browsing.gif)
+![Tab Functionality](./images/tab_browse.gif)
 
 ### Navigating interactive plots
 This shows how to move around the interactive plots and to zoom in and out using your mouse wheel.
 
-![Navigate Interactive Plots](./images/nav_interactive_plots.gif)
+![Navigate Interactive Plots](./images/navigating_interactive_plots.gif)
 
 ### Closing the Dashboard Pane
 
