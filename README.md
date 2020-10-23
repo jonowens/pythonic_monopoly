@@ -82,7 +82,7 @@ def parallel_categories():
     sfo_data_top_ten = sfo_data_neighborhood_cat[0:10].reset_index()
 
     # Parallel Categories Plot
-    return px.parallel_categories(
+    p_categor = px.parallel_categories(
         sfo_data_top_ten,
         dimensions=["neighborhood", "sale_price_sqr_foot", "housing_units", "gross_rent"],
         color="sale_price_sqr_foot",
@@ -94,6 +94,9 @@ def parallel_categories():
             "gross_rent": "Gross Rent"
         }
     )
+    
+    # Return plotly express plot    
+    return p_categor
 ```
 
 - Sample image from the code above:
@@ -113,7 +116,7 @@ def parallel_coordinates():
     sfo_data_top_ten = group_sort_top_10(sfo_data)
 
     # Parallel Coordinates Plot
-    return px.parallel_coordinates(
+    p_coordinates = px.parallel_coordinates(
         sfo_data_top_ten,
         dimensions=["sale_price_sqr_foot", "housing_units", "gross_rent"],
         color="sale_price_sqr_foot",
@@ -124,6 +127,9 @@ def parallel_coordinates():
             "gross_rent": "Gross Rent"
         }
     )
+    
+    # Return plotly express plot
+    return p_coordinates
 ```
 
 - Sample image from the code above:
